@@ -1,0 +1,243 @@
+.main-container {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.view-events {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 15px;
+}
+.card-img-overlay {
+  padding: 0px;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+  width: 40%;
+  height: 30%;
+  background-color: #fff;
+  padding-top: 10%;
+  text-align: center;
+}
+p.card-text {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5px;
+}
+.card-img {
+  width: 100%;
+}
+.date {
+  color: hotpink;
+}
+div#event-nav {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 48px;
+}
+button.view-events {
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    98.01deg,
+    #00c2ff 14.16%,
+    #ff27c3 79.91%
+  );
+  padding-left: 15px;
+  border-image-slice: 1;
+  color: #333333;
+  width: 40%;
+  height: 2rem;
+  font-family: Oswald;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+button.view-events:hover {
+  background: rgb(0, 194, 255);
+  background: linear-gradient(
+    98deg,
+    rgba(0, 194, 255, 1) 14.16%,
+    rgba(255, 39, 195, 1) 79.91%
+  );
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .events-container {
+    margin: 5px 15px 15px;
+  }
+  button.view-events {
+    font-size: 16px;
+    padding-left: 11px;
+    width: 45%;
+  }
+  .card-deck {
+    margin: 0px 12px 12px;
+  }
+  .card-title {
+    margin-bottom: 0.75rem;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    padding-top: 5%;
+    text-align: center;
+  }
+  p.card-text {
+       font-size: 22px;
+    line-height: 40px;
+    font-weight: normal;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  div#event-nav {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .events-container {
+    margin: 5px 15px 15px;
+  }
+  button.view-events {
+    font-size: 16px;
+  }
+  .card-deck {
+    margin: 0px 12px 12px;
+  }
+  .card-title {
+    margin-bottom: 0.75rem;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    padding-top: 5%;
+    text-align: center;
+  }
+  p.card-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 550px) {
+  .events-container {
+    margin: 5px 15px 15px;
+  }
+  button.view-events {
+    font-size: 16px;
+  }
+  .card-deck {
+    margin: 0px 12px 12px;
+  }
+  .card-title {
+    margin-bottom: 0.75rem;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    padding-top: 5%;
+    text-align: center;
+  }
+  p.card-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .events-container {
+    margin: 5px 15px 15px;
+  }
+  button.view-events {
+    font-size: 16px;
+  }
+  .card-deck {
+    margin: 0px 12px 12px;
+  }
+  .card-title {
+    margin-bottom: 0.75rem;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    padding-top: 5%;
+    text-align: center;
+  }
+  p.card-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .events-container {
+    margin: 5px 15px 15px;
+  }
+  button.view-events {
+    font-size: 16px;
+  }
+  .card-deck {
+    margin: 0px 12px 12px;
+  }
+  .card-title {
+    margin-bottom: 0.75rem;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    padding-top: 5%;
+    text-align: center;
+  }
+  p.card-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .events-container {
+    margin: 5px 15px 15px;
+  }
+  div#event-nav {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 58px;
+  }
+  button.view-events {
+    font-size: 26px;
+    padding-left: 25px;
+    width: 20%;
+    height: 3rem;
+  }
+  .card-deck {
+    margin: 0px 12px 12px;
+  }
+  .card-title {
+    margin-bottom: 0.75rem;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    padding-top: 5%;
+    text-align: center;
+  }
+  p.card-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+  }
+}
+@media screen and (min-width: 1440px) {
+}

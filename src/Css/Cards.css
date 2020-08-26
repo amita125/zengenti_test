@@ -1,0 +1,365 @@
+.card-body {
+  display: block;
+  text-align: left;
+}
+
+.card-title h5 {
+  padding-bottom: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+
+p.card-text {
+  /* position: absolute; */
+  bottom: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+div#1 {
+  display: inline-flex;
+}
+.cards-field {
+  display: block;
+  padding: 10px 10px;
+}
+.card-1 {
+  display: inline-flex;
+}
+.cards-1 {
+  margin: 0px 5px 0px;
+}
+.title,
+.title-deck {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  padding: 5px 0px;
+}
+.text,
+.text-deck {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+img.arrow {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.card {
+  border: none;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .card-list-1 {
+    display: block;
+  }
+  .cards-1,
+  .cards-2 {
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  div#main-deck {
+    margin: 0px;
+  }
+  img#accomodation {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .card-list-1 {
+    display: block;
+  }
+  .cards-1,
+  .cards-2 {
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  div#main-deck {
+    margin: 0px;
+  }
+  img#accomodation {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 550px) {
+  .cards-1-body.card-body,
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    z-index: 1;
+  }
+  .cards-1,
+  .cards-2 {
+    margin-bottom: 100px;
+  }
+  img#accomodation {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .cards-1-body.card-body,
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    z-index: 1;
+  }
+  .cards-1,
+  .cards-2 {
+    margin-bottom: 60px;
+  }
+  img#accomodation {
+    height: 400px;
+    object-fit: cover;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 27px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .card-body {
+    padding: 2px;
+  }
+  .title-deck {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .text-deck {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cards-1-body.card-body,
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 70%;
+    z-index: 1;
+  }
+  .cards-1,
+  .cards-2 {
+    margin-bottom: 100px;
+  }
+  img#accomodation {
+    height: 305px;
+    object-fit: cover;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 27px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 767px) {
+  .cards-1-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    z-index: 1;
+  }
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    width: 80%;
+    z-index: 1;
+  }
+
+  img#accomodation {
+    height: 400px;
+    object-fit: cover;
+  }
+  .title {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .card-body {
+    padding: 2px;
+  }
+  .title-deck {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .text-deck {
+    font-size: 14px;
+  }
+  .card-list-1 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  img#accomodation {
+    height: 230px;
+    object-fit: cover;
+  }
+  .card-deck .card {
+    flex: 1 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-list-1 {
+    display: flex;
+    margin-bottom: 70px;
+  }
+  .cards-1-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 60%;
+    z-index: 1;
+  }
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 80%;
+    z-index: 1;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 5px;
+  }
+  img.card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .card-list-1 {
+    display: flex;
+  }
+  .cards-1 {
+    margin: 0px 20px 0px;
+    width: 60%;
+  }
+  .cards-1-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 60%;
+    z-index: 1;
+  }
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 70%;
+    z-index: 1;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 5px 5px;
+  }
+  .text {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+  }
+  .title-deck {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 15px 0px;
+  }
+  .text-deck {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card-list-1 {
+    display: flex;
+
+    margin-bottom: 100px;
+  }
+  .cards-1 {
+    margin: 0px 20px 0px;
+    width: 60%;
+  }
+  .cards-1-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 60%;
+    z-index: 1;
+  }
+  .cards-2-body.card-body {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    width: 70%;
+    z-index: 1;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 5px 5px;
+  }
+  .text {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+  }
+  .title-deck {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 15px 0px;
+  }
+  .text-deck {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  img#accomodation {
+    height: 600px;
+    object-fit: cover;
+  }
+  .card-list-2 {
+    margin-bottom: 50px;
+  }
+}
