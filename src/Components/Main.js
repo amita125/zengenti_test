@@ -1,22 +1,29 @@
 import React from 'react'
-import '../Css/Style.css'
+import '../Css/Stylesheet/nav_main.css'
+
 function Main() {
   return (
     <div className="main-page">
       <div className="text-area">
-        <h1>STUDENT LIFE</h1>
-        <h3>
-          There is so much going on at Ludlow University, both on and off
-          campus.
-        </h3>
-        <h4>Lisa Smith</h4>
-        <p className="course">Student, BSc (Hons) Computer Games Design </p>
+        <h1 id="main-title">STUDENT LIFE</h1>
+        <blockquote>
+          There is so much going on at
+          <div className="break">Ludlow University, both on and off</div>
+          <div className="break">campus.</div>
+        </blockquote>
+        <span id="stu-name">Lisa Smith</span>
+        <br />
+        <span id="course">Student, BSc (Hons) Computer Games Design</span>
+        <br />
         <button className="view-button">View student stories</button>
       </div>
-
       <div className="image-area">
-        <img src={require('../Images/Badge.svg')} alt="badge" class="imgA1" />
-        <img src={require('../Images/lady.svg')} alt="lady" class="imgA2" />
+        <img
+          src={require('../Images/Badge.svg')}
+          alt="badge"
+          className="imgA1"
+        />
+        <img src={require('../Images/lady.svg')} alt="lady" className="imgA2" />
       </div>
     </div>
   )

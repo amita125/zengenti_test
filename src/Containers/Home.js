@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Navigation from '../Components/Navigation'
 import Footer from '../Components/Footer'
 import Events from '../Components/Events'
-import '../Css/Style.css'
+import '../Css/main.css'
+import '../Css/Stylesheet/responsive.css'
 import Banner from '../Components/Banner'
 import Cards from '../Components/Cards'
 import Main from '../Components/Main'
@@ -16,16 +17,16 @@ function Home() {
           <Navigation />
         </header>
         <main>
-          <section>
+          <section id="student-stories">
             <Main />
           </section>
-          <section>
+          <section id="about-ludlow">
             <Cards />
           </section>
-          <section id="Banner">
+          <section id="banner">
             <Banner />
           </section>
-          <section>
+          <section id="events">
             <Events />
           </section>
         </main>

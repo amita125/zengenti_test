@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import '../Css/Cards.css'
+import '../Css/Stylesheet/Cards.css'
 
 function Cards() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import '../Css/Events.css'
+import '../Css/Stylesheet/Events.css'
 function Events() {
   return (
     <div className="events-container">
@@ -10,7 +10,7 @@ function Events() {
         <button className="view-events">View all events</button>
       </div>
       <div className="all-events">
-        <CardDeck>
+        <CardDeck className="event-deck">
           <Card>
             <Card.Img src={require('../Images/up-img.svg')} alt="Card image" />
             <Card.ImgOverlay>

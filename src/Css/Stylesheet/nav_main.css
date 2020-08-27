@@ -1,0 +1,336 @@
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  img#logo {
+    width: 110px;
+  }
+  .main-page {
+    flex-direction: column-reverse;
+  }
+  blockquote {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 15px;
+    margin-top: 45px;
+  }
+  span#stu-name {
+    font-size: 22px;
+  }
+  span#course {
+    font-size: 14px;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imgA2 {
+    position: revert;
+    width: 100%;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 3.5%;
+    bottom: 94.17%;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  button.view-button {
+    margin-top: 14px;
+    height: 3rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  img#logo {
+    width: 140px;
+  }
+  .main-page {
+    flex-direction: column-reverse;
+  }
+  blockquote {
+    font-size: 22px;
+    margin-top: 22px;
+    line-height: 16px;
+  }
+  span#stu-name {
+    font-size: 25px;
+  }
+  span#course {
+    font-size: 15px;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imgA2 {
+    position: revert;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 3.5%;
+    bottom: 94.17%;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  button.view-button {
+    font-size: 25px;
+    height: 2.8rem;
+    margin-top: 12px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 550px) {
+  .main-page {
+    flex-direction: column-reverse;
+  }
+  blockquote {
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+  span#stu-name {
+    font-size: 24px;
+  }
+  span#course {
+    font-family: Fira Sans;
+    font-size: 17px;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imgA2 {
+    position: revert;
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 3.5%;
+    bottom: 94.17%;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  button.view-button {
+    font-size: 22px;
+    height: 2.8rem;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .text-area {
+    text-align: left;
+    padding: 0;
+  }
+  blockquote {
+    font-size: 22px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    line-height: 18px;
+  }
+  span#stu-name {
+    font-size: 24px;
+  }
+  span#course {
+    font-family: Fira Sans;
+    font-size: 14px;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imgA2 {
+    position: revert;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 3.5%;
+    bottom: 94.17%;
+  }
+
+  h1#main-title {
+    margin-top: 30px;
+    font-size: 40px;
+    line-height: 20px;
+  }
+  button.view-button {
+    margin-top: 10px;
+    height: 3rem;
+    width: 70%;
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  blockquote {
+    font-size: 21px;
+    text-align: left;
+    margin-top: 50px;
+    line-height: 15px;
+    margin-bottom: 30px;
+  }
+  span#course {
+    font-size: 15px;
+    font-family: Fira Sans;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 450px;
+    object-fit: cover;
+  }
+  .imgA2 {
+    position: revert;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 3.5%;
+    bottom: 94.17%;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  button.view-button {
+    font-size: 18px;
+    height: 3rem;
+    width: 60%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .text-area {
+    text-align: left;
+    padding: 15px 20px;
+  }
+  blockquote {
+    font-size: 30px;
+    line-height: 20px;
+    padding-top: 60px;
+    padding-bottom: 12px;
+  }
+  span#stu-name {
+    font-size: 30px;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imgA2 {
+    position: revert;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 9%;
+    bottom: 94.17%;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 90px;
+  }
+  button.view-button {
+    width: 60%;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main-page {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+  }
+  .text-area {
+    text-align: left;
+    padding: 15px 20px;
+  }
+  blockquote {
+    font-size: 40px;
+    line-height: 24px;
+
+    margin: 50px 0px 50px;
+  }
+  span#stu-name {
+    font-size: 24px;
+  }
+  span#course {
+    font-size: 18px;
+  }
+  .image-area {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imgA2 {
+    position: revert;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .imgA1 {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    position: absolute;
+    left: 4%;
+    top: 3.5%;
+    bottom: 94.17%;
+  }
+  h1 {
+    font-size: 90px;
+    line-height: 100px;
+    padding-top: 20px;
+  }
+  button.view-button {
+    font-size: 26px;
+    height: 4rem;
+    width: 52%;
+    margin-top: 20px;
+  }
+}

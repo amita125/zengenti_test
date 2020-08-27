@@ -1,38 +1,104 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+h1,
+.nav-item,
+blockquote,
+button.view-button,
+span,
+.title,
+.title-deck,
+p.card-text,
+div#event-nav {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button,
+span#course,
+.text,
+.text-deck ,.link-home{
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+}
+header {
+  position: fixed;
+  height: 5vh;
+  z-index: 2;
+}
+main {
+  margin-top: 60px;
+  padding-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  margin: 10px 0px 10px;
+}
+
+section#Banner {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+span {
+  color: #ffffff;
+}
+span#stu-name {
+  color: #333333;
+}
+
+.main-page {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 12px;
 }
-
-.App-link {
-  color: #61dafb;
+.card {
+  border: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body {
+  display: block;
+  text-align: left;
+}
+.card-1 {
+  display: inline-flex;
+}
+.cards-1 {
+  margin: 0px 5px 0px;
+}
+.banner-container {
+  background-image: url('./Images/banner-image.svg');
+  background: url('./Images/banner-image.svg') no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+.main-container {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.card-img-overlay {
+  padding: 0px;
+}
+.card-img {
+  width: 100%;
+}
+.date {
+  color: hotpink;
+}
+img.card-img {
+  height: 100%;
+}
+footer {
+  margin-top: 30px;
 }

@@ -1,0 +1,61 @@
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .banner-text {
+    font-size: 19px;
+  }
+  section#banner {
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .banner-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  section#banner {
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 550px) {
+  section#banner {
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  section#banner {
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner-text {
+    font-size: 24px;
+    padding: 0px 80px;
+  }
+  button.book-button {
+    width: 30%;
+    height: 3rem;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .banner-text {
+    margin: 20px 50px 20px;
+    font-size: 28px;
+    padding: 0px 100px;
+  }
+  button.book-button {
+    width: 30%;
+    height: 3.5rem;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .banner-text {
+    font-size: 30px;
+  }
+}
